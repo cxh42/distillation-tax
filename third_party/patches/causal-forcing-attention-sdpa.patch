@@ -1,0 +1,25 @@
+diff --git a/wan/modules/attention.py b/wan/modules/attention.py
+index 8845659..951b09d 100755
+--- a/wan/modules/attention.py
++++ b/wan/modules/attention.py
+@@ -61,6 +61,20 @@ def flash_attention(
+     assert dtype in half_dtypes
+     assert q.device.type == 'cuda' and q.size(-1) <= 256
+ 
++    # [dtax patch] no flash-attn on this machine (sm_120): route to torch sdpa.  Key padding is
++    # handled with an explicit boolean mask when k_lens is given, so semantics are unchanged.
++    if not (FLASH_ATTN_2_AVAILABLE or FLASH_ATTN_3_AVAILABLE):
++        out_dtype_ = q.dtype
++        qh = q.to(dtype) * (q_scale if q_scale is not None else 1.0)
++        kh, vh = k.to(dtype), v.to(dtype)
++        attn_mask = None
++        if k_lens is not None and bool((k_lens < k.size(1)).any()):
++            attn_mask = (torch.arange(k.size(1), device=k.device)[None, :] < k_lens[:, None])[:, None, None, :]
++        o = torch.nn.functional.scaled_dot_product_attention(
++            qh.transpose(1, 2), kh.transpose(1, 2), vh.transpose(1, 2),
++            attn_mask=attn_mask, is_causal=causal, dropout_p=dropout_p, scale=softmax_scale)
++        return o.transpose(1, 2).contiguous().to(out_dtype_)
++
+     # params
+     b, lq, lk, out_dtype = q.size(0), q.size(1), k.size(1), q.dtype
+ 

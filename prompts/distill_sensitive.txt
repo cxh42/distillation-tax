@@ -1,0 +1,15 @@
+fast	a cheetah sprinting at full speed across the savanna, dust flying behind it
+fast	a surfer riding a large barreling wave and getting wiped out by the whitewater
+fast	a red race car drifting around a tight corner on a wet track, tires smoking
+fast	a flock of hundreds of starlings swirling in a murmuration at dusk
+multi	two dogs playing tug-of-war with a rope toy in a backyard
+multi	a chef tossing vegetables in a flaming wok while a second cook plates dishes beside him
+multi	three children chasing each other around a fountain in a city square
+multi	a basketball player dribbling past two defenders and dunking the ball
+rare	an astronaut riding a horse on the moon, with the Earth visible in the sky
+rare	a panda playing a violin on a stage under spotlights
+rare	a giraffe wearing sunglasses roller-skating down a boardwalk
+count	exactly four red apples rolling across a wooden table
+count	five yellow rubber ducks floating down a small stream
+count	two cats sitting side by side on a windowsill, one black and one white, watching birds outside
+physics	a full glass of water tipping over on a table and spilling across the surface

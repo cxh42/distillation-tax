@@ -1,0 +1,362 @@
+{
+ "P00_T-full_vs_S-rcm-tfdcm": {
+  "left": "S-rcm-tfdcm",
+  "right": "T-full"
+ },
+ "P00_AR-diff_vs_S-sf": {
+  "left": "S-sf",
+  "right": "AR-diff"
+ },
+ "P00_S-bi-causvid_vs_S-causvid": {
+  "left": "S-causvid",
+  "right": "S-bi-causvid"
+ },
+ "P01_T-full_vs_S-sf": {
+  "left": "S-sf",
+  "right": "T-full"
+ },
+ "P01_S-rcm-tfdcm_vs_S-causvid": {
+  "left": "S-rcm-tfdcm",
+  "right": "S-causvid"
+ },
+ "P01_AR-diff_vs_S-bi-causvid": {
+  "left": "AR-diff",
+  "right": "S-bi-causvid"
+ },
+ "P02_T-full_vs_S-causvid": {
+  "left": "T-full",
+  "right": "S-causvid"
+ },
+ "P02_S-sf_vs_S-bi-causvid": {
+  "left": "S-sf",
+  "right": "S-bi-causvid"
+ },
+ "P02_S-rcm-tfdcm_vs_AR-diff": {
+  "left": "S-rcm-tfdcm",
+  "right": "AR-diff"
+ },
+ "P03_T-full_vs_S-bi-causvid": {
+  "left": "S-bi-causvid",
+  "right": "T-full"
+ },
+ "P03_S-causvid_vs_AR-diff": {
+  "left": "AR-diff",
+  "right": "S-causvid"
+ },
+ "P03_S-sf_vs_S-rcm-tfdcm": {
+  "left": "S-sf",
+  "right": "S-rcm-tfdcm"
+ },
+ "P04_T-full_vs_AR-diff": {
+  "left": "T-full",
+  "right": "AR-diff"
+ },
+ "P04_S-bi-causvid_vs_S-rcm-tfdcm": {
+  "left": "S-rcm-tfdcm",
+  "right": "S-bi-causvid"
+ },
+ "P04_S-causvid_vs_S-sf": {
+  "left": "S-sf",
+  "right": "S-causvid"
+ },
+ "P05_T-full_vs_S-rcm-tfdcm": {
+  "left": "S-rcm-tfdcm",
+  "right": "T-full"
+ },
+ "P05_AR-diff_vs_S-sf": {
+  "left": "AR-diff",
+  "right": "S-sf"
+ },
+ "P05_S-bi-causvid_vs_S-causvid": {
+  "left": "S-causvid",
+  "right": "S-bi-causvid"
+ },
+ "P06_T-full_vs_S-sf": {
+  "left": "T-full",
+  "right": "S-sf"
+ },
+ "P06_S-rcm-tfdcm_vs_S-causvid": {
+  "left": "S-causvid",
+  "right": "S-rcm-tfdcm"
+ },
+ "P06_AR-diff_vs_S-bi-causvid": {
+  "left": "S-bi-causvid",
+  "right": "AR-diff"
+ },
+ "P07_T-full_vs_S-causvid": {
+  "left": "T-full",
+  "right": "S-causvid"
+ },
+ "P07_S-sf_vs_S-bi-causvid": {
+  "left": "S-bi-causvid",
+  "right": "S-sf"
+ },
+ "P07_S-rcm-tfdcm_vs_AR-diff": {
+  "left": "AR-diff",
+  "right": "S-rcm-tfdcm"
+ },
+ "P08_T-full_vs_S-bi-causvid": {
+  "left": "T-full",
+  "right": "S-bi-causvid"
+ },
+ "P08_S-causvid_vs_AR-diff": {
+  "left": "S-causvid",
+  "right": "AR-diff"
+ },
+ "P08_S-sf_vs_S-rcm-tfdcm": {
+  "left": "S-rcm-tfdcm",
+  "right": "S-sf"
+ },
+ "P09_T-full_vs_AR-diff": {
+  "left": "AR-diff",
+  "right": "T-full"
+ },
+ "P09_S-bi-causvid_vs_S-rcm-tfdcm": {
+  "left": "S-bi-causvid",
+  "right": "S-rcm-tfdcm"
+ },
+ "P09_S-causvid_vs_S-sf": {
+  "left": "S-sf",
+  "right": "S-causvid"
+ },
+ "P10_T-full_vs_S-rcm-tfdcm": {
+  "left": "S-rcm-tfdcm",
+  "right": "T-full"
+ },
+ "P10_AR-diff_vs_S-sf": {
+  "left": "AR-diff",
+  "right": "S-sf"
+ },
+ "P10_S-bi-causvid_vs_S-causvid": {
+  "left": "S-bi-causvid",
+  "right": "S-causvid"
+ },
+ "P11_T-full_vs_S-sf": {
+  "left": "T-full",
+  "right": "S-sf"
+ },
+ "P11_S-rcm-tfdcm_vs_S-causvid": {
+  "left": "S-rcm-tfdcm",
+  "right": "S-causvid"
+ },
+ "P11_AR-diff_vs_S-bi-causvid": {
+  "left": "AR-diff",
+  "right": "S-bi-causvid"
+ },
+ "P12_T-full_vs_S-causvid": {
+  "left": "T-full",
+  "right": "S-causvid"
+ },
+ "P12_S-sf_vs_S-bi-causvid": {
+  "left": "S-sf",
+  "right": "S-bi-causvid"
+ },
+ "P12_S-rcm-tfdcm_vs_AR-diff": {
+  "left": "S-rcm-tfdcm",
+  "right": "AR-diff"
+ },
+ "P13_T-full_vs_S-bi-causvid": {
+  "left": "T-full",
+  "right": "S-bi-causvid"
+ },
+ "P13_S-causvid_vs_AR-diff": {
+  "left": "S-causvid",
+  "right": "AR-diff"
+ },
+ "P13_S-sf_vs_S-rcm-tfdcm": {
+  "left": "S-sf",
+  "right": "S-rcm-tfdcm"
+ },
+ "P14_T-full_vs_AR-diff": {
+  "left": "AR-diff",
+  "right": "T-full"
+ },
+ "P14_S-bi-causvid_vs_S-rcm-tfdcm": {
+  "left": "S-bi-causvid",
+  "right": "S-rcm-tfdcm"
+ },
+ "P14_S-causvid_vs_S-sf": {
+  "left": "S-causvid",
+  "right": "S-sf"
+ },
+ "P15_T-full_vs_S-rcm-tfdcm": {
+  "left": "S-rcm-tfdcm",
+  "right": "T-full"
+ },
+ "P15_AR-diff_vs_S-sf": {
+  "left": "AR-diff",
+  "right": "S-sf"
+ },
+ "P15_S-bi-causvid_vs_S-causvid": {
+  "left": "S-causvid",
+  "right": "S-bi-causvid"
+ },
+ "P16_T-full_vs_S-sf": {
+  "left": "S-sf",
+  "right": "T-full"
+ },
+ "P16_S-rcm-tfdcm_vs_S-causvid": {
+  "left": "S-rcm-tfdcm",
+  "right": "S-causvid"
+ },
+ "P16_AR-diff_vs_S-bi-causvid": {
+  "left": "AR-diff",
+  "right": "S-bi-causvid"
+ },
+ "P17_T-full_vs_S-causvid": {
+  "left": "T-full",
+  "right": "S-causvid"
+ },
+ "P17_S-sf_vs_S-bi-causvid": {
+  "left": "S-sf",
+  "right": "S-bi-causvid"
+ },
+ "P17_S-rcm-tfdcm_vs_AR-diff": {
+  "left": "S-rcm-tfdcm",
+  "right": "AR-diff"
+ },
+ "P18_T-full_vs_S-bi-causvid": {
+  "left": "S-bi-causvid",
+  "right": "T-full"
+ },
+ "P18_S-causvid_vs_AR-diff": {
+  "left": "AR-diff",
+  "right": "S-causvid"
+ },
+ "P18_S-sf_vs_S-rcm-tfdcm": {
+  "left": "S-sf",
+  "right": "S-rcm-tfdcm"
+ },
+ "P19_T-full_vs_AR-diff": {
+  "left": "T-full",
+  "right": "AR-diff"
+ },
+ "P19_S-bi-causvid_vs_S-rcm-tfdcm": {
+  "left": "S-rcm-tfdcm",
+  "right": "S-bi-causvid"
+ },
+ "P19_S-causvid_vs_S-sf": {
+  "left": "S-causvid",
+  "right": "S-sf"
+ },
+ "P20_T-full_vs_S-rcm-tfdcm": {
+  "left": "T-full",
+  "right": "S-rcm-tfdcm"
+ },
+ "P20_AR-diff_vs_S-sf": {
+  "left": "S-sf",
+  "right": "AR-diff"
+ },
+ "P20_S-bi-causvid_vs_S-causvid": {
+  "left": "S-causvid",
+  "right": "S-bi-causvid"
+ },
+ "P21_T-full_vs_S-sf": {
+  "left": "S-sf",
+  "right": "T-full"
+ },
+ "P21_S-rcm-tfdcm_vs_S-causvid": {
+  "left": "S-causvid",
+  "right": "S-rcm-tfdcm"
+ },
+ "P21_AR-diff_vs_S-bi-causvid": {
+  "left": "S-bi-causvid",
+  "right": "AR-diff"
+ },
+ "P22_T-full_vs_S-causvid": {
+  "left": "S-causvid",
+  "right": "T-full"
+ },
+ "P22_S-sf_vs_S-bi-causvid": {
+  "left": "S-sf",
+  "right": "S-bi-causvid"
+ },
+ "P22_S-rcm-tfdcm_vs_AR-diff": {
+  "left": "AR-diff",
+  "right": "S-rcm-tfdcm"
+ },
+ "P23_T-full_vs_S-bi-causvid": {
+  "left": "S-bi-causvid",
+  "right": "T-full"
+ },
+ "P23_S-causvid_vs_AR-diff": {
+  "left": "S-causvid",
+  "right": "AR-diff"
+ },
+ "P23_S-sf_vs_S-rcm-tfdcm": {
+  "left": "S-sf",
+  "right": "S-rcm-tfdcm"
+ },
+ "P24_T-full_vs_AR-diff": {
+  "left": "AR-diff",
+  "right": "T-full"
+ },
+ "P24_S-bi-causvid_vs_S-rcm-tfdcm": {
+  "left": "S-bi-causvid",
+  "right": "S-rcm-tfdcm"
+ },
+ "P24_S-causvid_vs_S-sf": {
+  "left": "S-sf",
+  "right": "S-causvid"
+ },
+ "P25_T-full_vs_S-rcm-tfdcm": {
+  "left": "T-full",
+  "right": "S-rcm-tfdcm"
+ },
+ "P25_AR-diff_vs_S-sf": {
+  "left": "S-sf",
+  "right": "AR-diff"
+ },
+ "P25_S-bi-causvid_vs_S-causvid": {
+  "left": "S-causvid",
+  "right": "S-bi-causvid"
+ },
+ "P26_T-full_vs_S-sf": {
+  "left": "T-full",
+  "right": "S-sf"
+ },
+ "P26_S-rcm-tfdcm_vs_S-causvid": {
+  "left": "S-causvid",
+  "right": "S-rcm-tfdcm"
+ },
+ "P26_AR-diff_vs_S-bi-causvid": {
+  "left": "AR-diff",
+  "right": "S-bi-causvid"
+ },
+ "P27_T-full_vs_S-causvid": {
+  "left": "T-full",
+  "right": "S-causvid"
+ },
+ "P27_S-sf_vs_S-bi-causvid": {
+  "left": "S-sf",
+  "right": "S-bi-causvid"
+ },
+ "P27_S-rcm-tfdcm_vs_AR-diff": {
+  "left": "AR-diff",
+  "right": "S-rcm-tfdcm"
+ },
+ "P28_T-full_vs_S-bi-causvid": {
+  "left": "S-bi-causvid",
+  "right": "T-full"
+ },
+ "P28_S-causvid_vs_AR-diff": {
+  "left": "S-causvid",
+  "right": "AR-diff"
+ },
+ "P28_S-sf_vs_S-rcm-tfdcm": {
+  "left": "S-sf",
+  "right": "S-rcm-tfdcm"
+ },
+ "P29_T-full_vs_AR-diff": {
+  "left": "T-full",
+  "right": "AR-diff"
+ },
+ "P29_S-bi-causvid_vs_S-rcm-tfdcm": {
+  "left": "S-rcm-tfdcm",
+  "right": "S-bi-causvid"
+ },
+ "P29_S-causvid_vs_S-sf": {
+  "left": "S-causvid",
+  "right": "S-sf"
+ }
+}

@@ -1,0 +1,242 @@
+{
+ "P00": [
+  "S-causvid",
+  "T-full",
+  "S-rcm-tfdcm",
+  "S-bi-causvid",
+  "AR-diff",
+  "S-sf"
+ ],
+ "P01": [
+  "S-rcm-tfdcm",
+  "S-sf",
+  "S-causvid",
+  "S-bi-causvid",
+  "AR-diff",
+  "T-full"
+ ],
+ "P02": [
+  "S-causvid",
+  "T-full",
+  "S-bi-causvid",
+  "AR-diff",
+  "S-rcm-tfdcm",
+  "S-sf"
+ ],
+ "P03": [
+  "S-bi-causvid",
+  "S-sf",
+  "AR-diff",
+  "T-full",
+  "S-rcm-tfdcm",
+  "S-causvid"
+ ],
+ "P04": [
+  "S-bi-causvid",
+  "S-causvid",
+  "S-rcm-tfdcm",
+  "T-full",
+  "S-sf",
+  "AR-diff"
+ ],
+ "P05": [
+  "AR-diff",
+  "S-sf",
+  "S-bi-causvid",
+  "S-rcm-tfdcm",
+  "T-full",
+  "S-causvid"
+ ],
+ "P06": [
+  "AR-diff",
+  "S-causvid",
+  "T-full",
+  "S-rcm-tfdcm",
+  "S-bi-causvid",
+  "S-sf"
+ ],
+ "P07": [
+  "S-bi-causvid",
+  "S-sf",
+  "T-full",
+  "AR-diff",
+  "S-rcm-tfdcm",
+  "S-causvid"
+ ],
+ "P08": [
+  "T-full",
+  "S-bi-causvid",
+  "S-causvid",
+  "S-rcm-tfdcm",
+  "AR-diff",
+  "S-sf"
+ ],
+ "P09": [
+  "AR-diff",
+  "S-bi-causvid",
+  "S-sf",
+  "S-causvid",
+  "T-full",
+  "S-rcm-tfdcm"
+ ],
+ "P10": [
+  "S-causvid",
+  "AR-diff",
+  "S-sf",
+  "S-rcm-tfdcm",
+  "S-bi-causvid",
+  "T-full"
+ ],
+ "P11": [
+  "S-rcm-tfdcm",
+  "S-bi-causvid",
+  "S-causvid",
+  "AR-diff",
+  "S-sf",
+  "T-full"
+ ],
+ "P12": [
+  "S-causvid",
+  "S-sf",
+  "S-rcm-tfdcm",
+  "T-full",
+  "S-bi-causvid",
+  "AR-diff"
+ ],
+ "P13": [
+  "S-bi-causvid",
+  "S-sf",
+  "S-causvid",
+  "AR-diff",
+  "S-rcm-tfdcm",
+  "T-full"
+ ],
+ "P14": [
+  "AR-diff",
+  "S-bi-causvid",
+  "S-causvid",
+  "S-rcm-tfdcm",
+  "S-sf",
+  "T-full"
+ ],
+ "P15": [
+  "S-sf",
+  "AR-diff",
+  "S-bi-causvid",
+  "S-causvid",
+  "T-full",
+  "S-rcm-tfdcm"
+ ],
+ "P16": [
+  "AR-diff",
+  "S-causvid",
+  "S-bi-causvid",
+  "T-full",
+  "S-rcm-tfdcm",
+  "S-sf"
+ ],
+ "P17": [
+  "S-bi-causvid",
+  "AR-diff",
+  "T-full",
+  "S-sf",
+  "S-rcm-tfdcm",
+  "S-causvid"
+ ],
+ "P18": [
+  "S-rcm-tfdcm",
+  "T-full",
+  "S-sf",
+  "S-causvid",
+  "AR-diff",
+  "S-bi-causvid"
+ ],
+ "P19": [
+  "S-sf",
+  "AR-diff",
+  "T-full",
+  "S-bi-causvid",
+  "S-causvid",
+  "S-rcm-tfdcm"
+ ],
+ "P20": [
+  "S-rcm-tfdcm",
+  "S-causvid",
+  "AR-diff",
+  "S-sf",
+  "T-full",
+  "S-bi-causvid"
+ ],
+ "P21": [
+  "S-causvid",
+  "T-full",
+  "AR-diff",
+  "S-sf",
+  "S-bi-causvid",
+  "S-rcm-tfdcm"
+ ],
+ "P22": [
+  "S-bi-causvid",
+  "AR-diff",
+  "S-rcm-tfdcm",
+  "S-causvid",
+  "S-sf",
+  "T-full"
+ ],
+ "P23": [
+  "T-full",
+  "S-causvid",
+  "S-bi-causvid",
+  "AR-diff",
+  "S-rcm-tfdcm",
+  "S-sf"
+ ],
+ "P24": [
+  "S-sf",
+  "T-full",
+  "AR-diff",
+  "S-causvid",
+  "S-bi-causvid",
+  "S-rcm-tfdcm"
+ ],
+ "P25": [
+  "S-sf",
+  "T-full",
+  "S-bi-causvid",
+  "AR-diff",
+  "S-rcm-tfdcm",
+  "S-causvid"
+ ],
+ "P26": [
+  "S-bi-causvid",
+  "S-rcm-tfdcm",
+  "S-sf",
+  "S-causvid",
+  "AR-diff",
+  "T-full"
+ ],
+ "P27": [
+  "S-causvid",
+  "S-rcm-tfdcm",
+  "S-sf",
+  "S-bi-causvid",
+  "AR-diff",
+  "T-full"
+ ],
+ "P28": [
+  "S-rcm-tfdcm",
+  "S-bi-causvid",
+  "S-sf",
+  "AR-diff",
+  "S-causvid",
+  "T-full"
+ ],
+ "P29": [
+  "S-rcm-tfdcm",
+  "S-causvid",
+  "S-sf",
+  "T-full",
+  "AR-diff",
+  "S-bi-causvid"
+ ]
+}

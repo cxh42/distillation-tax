@@ -1,0 +1,182 @@
+{
+ "P00": {
+  "A": "S-bi-causvid",
+  "B": "S-causvid",
+  "C": "AR-diff",
+  "D": "T-full"
+ },
+ "P01": {
+  "A": "T-full",
+  "B": "S-causvid",
+  "C": "S-bi-causvid",
+  "D": "AR-diff"
+ },
+ "P02": {
+  "A": "T-full",
+  "B": "AR-diff",
+  "C": "S-bi-causvid",
+  "D": "S-causvid"
+ },
+ "P03": {
+  "A": "S-causvid",
+  "B": "S-bi-causvid",
+  "C": "T-full",
+  "D": "AR-diff"
+ },
+ "P04": {
+  "A": "S-bi-causvid",
+  "B": "S-causvid",
+  "C": "AR-diff",
+  "D": "T-full"
+ },
+ "P05": {
+  "A": "S-bi-causvid",
+  "B": "AR-diff",
+  "C": "T-full",
+  "D": "S-causvid"
+ },
+ "P06": {
+  "A": "S-causvid",
+  "B": "AR-diff",
+  "C": "T-full",
+  "D": "S-bi-causvid"
+ },
+ "P07": {
+  "A": "T-full",
+  "B": "S-causvid",
+  "C": "AR-diff",
+  "D": "S-bi-causvid"
+ },
+ "P08": {
+  "A": "AR-diff",
+  "B": "T-full",
+  "C": "S-bi-causvid",
+  "D": "S-causvid"
+ },
+ "P09": {
+  "A": "S-causvid",
+  "B": "AR-diff",
+  "C": "T-full",
+  "D": "S-bi-causvid"
+ },
+ "P10": {
+  "A": "S-causvid",
+  "B": "T-full",
+  "C": "AR-diff",
+  "D": "S-bi-causvid"
+ },
+ "P11": {
+  "A": "S-causvid",
+  "B": "AR-diff",
+  "C": "T-full",
+  "D": "S-bi-causvid"
+ },
+ "P12": {
+  "A": "T-full",
+  "B": "S-causvid",
+  "C": "AR-diff",
+  "D": "S-bi-causvid"
+ },
+ "P13": {
+  "A": "S-causvid",
+  "B": "S-bi-causvid",
+  "C": "AR-diff",
+  "D": "T-full"
+ },
+ "P14": {
+  "A": "S-causvid",
+  "B": "S-bi-causvid",
+  "C": "AR-diff",
+  "D": "T-full"
+ },
+ "P15": {
+  "A": "T-full",
+  "B": "AR-diff",
+  "C": "S-bi-causvid",
+  "D": "S-causvid"
+ },
+ "P16": {
+  "A": "T-full",
+  "B": "AR-diff",
+  "C": "S-bi-causvid",
+  "D": "S-causvid"
+ },
+ "P17": {
+  "A": "AR-diff",
+  "B": "S-causvid",
+  "C": "S-bi-causvid",
+  "D": "T-full"
+ },
+ "P18": {
+  "A": "S-causvid",
+  "B": "S-bi-causvid",
+  "C": "T-full",
+  "D": "AR-diff"
+ },
+ "P19": {
+  "A": "S-bi-causvid",
+  "B": "T-full",
+  "C": "AR-diff",
+  "D": "S-causvid"
+ },
+ "P20": {
+  "A": "AR-diff",
+  "B": "S-bi-causvid",
+  "C": "T-full",
+  "D": "S-causvid"
+ },
+ "P21": {
+  "A": "T-full",
+  "B": "AR-diff",
+  "C": "S-bi-causvid",
+  "D": "S-causvid"
+ },
+ "P22": {
+  "A": "T-full",
+  "B": "AR-diff",
+  "C": "S-causvid",
+  "D": "S-bi-causvid"
+ },
+ "P23": {
+  "A": "T-full",
+  "B": "AR-diff",
+  "C": "S-causvid",
+  "D": "S-bi-causvid"
+ },
+ "P24": {
+  "A": "S-bi-causvid",
+  "B": "T-full",
+  "C": "AR-diff",
+  "D": "S-causvid"
+ },
+ "P25": {
+  "A": "S-causvid",
+  "B": "T-full",
+  "C": "AR-diff",
+  "D": "S-bi-causvid"
+ },
+ "P26": {
+  "A": "S-bi-causvid",
+  "B": "AR-diff",
+  "C": "S-causvid",
+  "D": "T-full"
+ },
+ "P27": {
+  "A": "S-bi-causvid",
+  "B": "T-full",
+  "C": "AR-diff",
+  "D": "S-causvid"
+ },
+ "P28": {
+  "A": "T-full",
+  "B": "AR-diff",
+  "C": "S-causvid",
+  "D": "S-bi-causvid"
+ },
+ "P29": {
+  "A": "T-full",
+  "B": "AR-diff",
+  "C": "S-bi-causvid",
+  "D": "S-causvid"
+ }
+}

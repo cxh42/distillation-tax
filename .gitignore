@@ -1,0 +1,20 @@
+# generated corpora / checkpoints / caches (see README for how to regenerate or download)
+corpus/
+ckpt/
+third_party/*/
+!third_party/patches/
+prompts/prompt_emb.pt
+results/**/*.npz
+results/smoke/
+logs/*.log
+__pycache__/
+*.pyc
+.venv/
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.synctex.gz

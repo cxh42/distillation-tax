@@ -1,0 +1,11 @@
+# Common generation config -- every variant, no exceptions (guide §3.6). Fixed 2026-09-13 before the pilot.
+resolution: [480, 832]      # H x W  (latent 60 x 104)
+num_frames: 81              # 21 latent frames = 7 causal chunks of 3 (Self-Forcing / CausVid / Causal-Forcing block size)
+fps: 16
+latent_shape: [21, 16, 60, 104]
+seeds: [0, 1, 2, 3, 4, 5, 6, 7]     # torch.Generator('cuda').manual_seed(seed) -> initial noise [1,21,16,60,104]; identical across variants
+text_encoder: UMT5-XXL (diffusers weights, bf16), zero-padded to 512 tokens, cached once (prompts/prompt_emb.pt)
+negative_prompt: official Wan2.1 Chinese negative prompt (used only when CFG > 1)
+codebase: third_party/Causal-Forcing (vendors Wan2.1 + CausVid + Self-Forcing); attention = torch sdpa (flash-attn unavailable on sm_120)
+vae: Wan2.1_VAE.pth via WanVAEWrapper (bf16), same decode path for all variants
+video_codec: libx264 quality 8 (imageio), metrics computed from the decoded mp4 for every variant alike
