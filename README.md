@@ -13,8 +13,23 @@ pairwise human study and four no-reference IQA metrics. Nothing is trained.
 | Causalisation costs temporal coherence, **distillation refunds it**; camera motion is taxed more than object motion; prompt adherence is untaxed; oversaturation comes with causal fine-tuning, not DMD | §4.4 |
 | Four frame-level **IQA metrics are inverted** w.r.t. human quality judgement on distilled video | §4.5, `RESULTS.md` §6–7 |
 
-`RESULTS.md` is the lab notebook: pre-registration (§0, written before any result), every intermediate
-reading, the two GPU incidents, and the final numbers. It is more detailed than the paper and in Chinese.
+`RESULTS.md` is the lab notebook (Chinese): the pre-registration written before any result (§0), the
+stage-0 smoke tests (§1), the pass-A first reading (§2), the AR-diff cells and the 2×2 interaction with
+its robustness checks (§3), the 8-seed numbers and CFG band (§4), the third round on chunk size, loss
+type and training stage (§5), the human study (§6) and the IQA inversion (§7). It records the GPU
+incidents and every decision to cut or add an experiment. `doc/guide.md` is the original task brief the
+study started from (its "five-axis tax benchmark" plan; the factorial design and the mechanism findings
+grew out of it).
+
+## Timeline (all on one RTX 5090)
+| date | what |
+|---|---|
+| 09-13 | protocol pre-registered; 7 configurations + AR-diff brought up in one harness; pilot pass A launched |
+| 09-14 | pass A read: the interaction appears; AR-diff completes the 2×2; CFG-3 pair queued; NVIDIA Causal-rCM cells added |
+| 09-15 | 8-seed cells; second 2×2; per-frame analysis; first GPU fall-off-bus |
+| 09-16 | CFG band complete; verdict written; second GPU incident |
+| 09-17 | round 3 (chunk size, SiD/GAN, ODE/CD stages); blind pairwise human study; pyiqa IQA pass |
+| 09-18 | paper draft, figures, repository |
 
 ## Layout
 
@@ -35,7 +50,17 @@ third_party/      patches/ only; the four upstream repos are cloned at pinned co
 
 The video corpus (16 GB, `corpus/<cell>/P<prompt>_s<seed>.mp4`) and checkpoints (~120 GB) are not in
 git; `scripts/dl_all_ckpts.sh` downloads every checkpoint used and `scripts/generate.py` regenerates any
-cell deterministically (same seed → same initial noise).
+cell deterministically (same seed → same initial noise). The **`v0.1-data` release** carries the
+VideoMAE/DINOv2 features of all videos (`features_npz.tar.gz.00-03.part`, 100 MB parts + sha256), the
+cached prompt embeddings (`prompt_emb.pt`) and the paper PDF:
+
+```bash
+cat features_npz.tar.gz.*.part > features_npz.tar.gz && sha256sum -c features_npz.tar.gz.sha256 && tar -xzf features_npz.tar.gz
+mv prompt_emb.pt prompts/
+```
+
+Column-by-column documentation of every table is in [`data/README.md`](data/README.md); the per-video
+record schema in [`results/README.md`](results/README.md).
 
 ## Reproduce
 
